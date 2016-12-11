@@ -50,7 +50,7 @@ class DayTen
         @bots[i[:value_address]].process_input(i[:value], @bots, @output)
       end
     end
-    print_state
+    # print_state
   end
 
   def print_state
@@ -75,8 +75,8 @@ class DayTen
       @values << value
       if @values.length == 2
         @values.sort!
-        puts
-        puts "Bot #{@my_address} comparing values #{@values}"
+        # puts
+        # puts "Bot #{@my_address} comparing values #{@values}"
         low_output(@values[0], bots, output)
         high_output(@values[1], bots, output)
       end
