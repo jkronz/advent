@@ -1,6 +1,6 @@
 require 'minitest/autorun'
 require './lib/day_twelve'
-class DaySevenTest < MiniTest::Test
+class DayTwelveTest < MiniTest::Test
 
   def test_part_one
     day = DayTwelve.new
