@@ -1,0 +1,3 @@
+class DayNineteen
+
+end
